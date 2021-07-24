@@ -8,7 +8,7 @@ namespace CollectionDemo
     {
         public static void HashSetOperations()
         {
-            Console.WriteLine("Enter number of elements in list");
+            Console.WriteLine("Enter number of elements in HashSet");
             int number = Convert.ToInt32(Console.ReadLine());
             int input;
             // Creating a HashSet of integer
