@@ -23,6 +23,7 @@ namespace CollectionDemo
             }
 
             //Display HashSet
+            Console.WriteLine("\n*****Displaying Hash Set items*****");
             HashSet<int>.Enumerator HashsetEnumerator = set.GetEnumerator();
             while(HashsetEnumerator.MoveNext())
             {

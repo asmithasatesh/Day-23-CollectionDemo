@@ -9,6 +9,7 @@ namespace CollectionDemo
             Console.WriteLine("Welcome to Collection demo!");
             Console.WriteLine("Enter 1- for List Implementation");
             Console.WriteLine("Enter 2- for HashSet Implementation");
+            Console.WriteLine("Enter 3- for HashSet Implementation");
             //Get option from user
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -18,6 +19,9 @@ namespace CollectionDemo
                     break;
                 case 2:
                     HashSet.HashSetOperations();
+                    break;
+                case 3:
+                    Queue.QueueOperations();
                     break;
                 default:
                     break;
